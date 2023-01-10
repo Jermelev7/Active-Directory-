@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/6ir91kc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rAap82H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Here you can see that we created both machines in Azure, they are both up and running.
@@ -43,7 +43,7 @@ Here you can see that we created both machines in Azure, they are both up and ru
 <img src="https://https://i.imgur.com/6ir91kc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+So after creating the vertual machines we went in to change DC-1's NIC private IP address to static, to ensure that for as long as we need it, it does't change, to do this, in the Azure portal you will click on to DC-1, network, Network Interface, ipconfig, then you will change the status from dynamic to static.
 </p>
 <br />
 
