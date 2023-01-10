@@ -24,9 +24,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1 - You want to creat your vertual machines in Azure, so that is VM-1 which we will call client-1 running om Windows 10, then VM2 which we will call DC-1 running on Windows server 2022
+- Step 1 - You want to creat your vertual machines in Azure, so that is VM-1 which we will call client-1 running om Windows 10, then VM2 which we will call DC-1 running on Windows server 2022, also make sure that both VM's are on the same Vnet.
 - Step 2 - Then we will set the NIC for DC-1's private address to static which means the IP address will not change for as long as we need it for.
-- Step 3
+- Step 3 - Ensure there is connection between both machines so that we can deploy active directory.
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
