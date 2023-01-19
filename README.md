@@ -40,7 +40,7 @@ Here you can see that we created both machines in Azure, they are both up and ru
 <br />
 
 <p>
-<img src="https://https://i.imgur.com/6ir91kc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qWz7eNd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 So after creating the vertual machines we went in to change DC-1's NIC private IP address to static, to ensure that for as long as we need it, it does't change, to do this, in the Azure portal you will click on to DC-1, network, Network Interface, ipconfig, then you will change the status from dynamic to static.
