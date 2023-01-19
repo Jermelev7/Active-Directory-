@@ -54,3 +54,8 @@ So after creating the vertual machines we went in to change DC-1's NIC private I
 After ensuring that DC-1's private IP address was changed from dynamic to static, we signed into DC-1 and enabled ICMPV4 communication between DC-1 and Client-1 in DC-1's local firewall, how we managed to this was after siginging in we hit the windows key, then typed wf.msc (miscrosft common console document) or you can also type in windows defender firwall, click on inbound rules, scrool over to protocals and sort to ICMPV4, and enable communication.
 </p>
 <br />
+
+<img src=https://i.imgur.com/tBz0HCy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+So we signed into Client-1 to check the connectivity between DC-1 and Client-1 to do this, once you've signed into Client-1 tap the windows key and type command prompt, then ping DC-1's private IP address. 
