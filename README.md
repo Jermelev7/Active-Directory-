@@ -55,7 +55,13 @@ After ensuring that DC-1's private IP address was changed from dynamic to static
 </p>
 <br />
 
-<img src=https://i.imgur.com/tBz0HCy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tBz0HCy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 So we signed into Client-1 to check the connectivity between DC-1 and Client-1 to do this, once you've signed into Client-1 tap the windows key and type command prompt, then ping DC-1's private IP address. 
+                                                                                                
+<p>
+<img src="https://i.imgur.com/scTsmsY.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Here is where will download actvie directory, in order to do this in the serever manager you will click add roles and featuers, then on the before you begin portion click next, on the installation portion, select installation type,
